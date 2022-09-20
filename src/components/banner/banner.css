@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&display=swap');
+
+.mont{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner{
+    width: 100%;
+    background: rgb(0,166,214);
+background: linear-gradient(90deg, rgba(0,166,214,1) 0%, rgba(0,98,155,1) 50%, rgba(0,98,155,1) 100%);
+    display: flex;
+    vertical-align: middle;
+    position: sticky;
+    top: 0;
+    opacity: 0.8;
+
+
+
+}
+
+.phone{
+    font-size: 3rem !important;
+    color: white;
+    vertical-align:middle;
+    align-content: center;
+    padding-top: 2vh;
+}
+
+
+.centerB{
+    display: flex;
+    justify-content: center;
+    vertical-align:middle;
+    color: white;
+    width: 90%;
+    padding-left: 15px;
+    
+
+}
+
+.centerB h1{
+    font-size: 2rem;
+    vertical-align: middle;
+    align-content: center;
+}
+
+.centerBContent{
+    display: flex;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.centerBContent:hover, .social:hover{
+    transform: scale(1.1);
+
+}
+
+.rightB{
+    display: flex;
+    text-align: right;
+    align-self: right;
+    vertical-align:middle;
+    justify-content: right;
+    width: 10%;
+}
+
+.social{
+    font-size: 3rem !important;
+    color:white;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    padding-top: 2vh;
+}
