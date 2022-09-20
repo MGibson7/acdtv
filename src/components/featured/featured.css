@@ -10,7 +10,7 @@
 
 .featured img{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     z-index: -100;
     opacity: 0.7;
 }
