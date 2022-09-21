@@ -1,6 +1,26 @@
+import { useState } from "react"
 import "./navBar.css"
 
 const NavBar = () => {
+  const [page, setPage] = useState("home");
+
+  const handlePage = () =>{
+    setPage("About")
+  }
+  const handlePage2 = () =>{
+    setPage("WeDo")
+  }
+  const handlePage3 = () =>{
+    setPage("WeHelp")
+  }
+  const handlePage4 = () =>{
+    setPage("Quote")
+  }
+  const handlePage5 = () =>{
+    setPage("Contact")
+  }
+  
+
   return (
     <div className="navbar">
         <div className="leftSideNav">
@@ -9,11 +29,11 @@ const NavBar = () => {
         </div>
 
         <div className="rightSideNav">
-            <h3 className="nav">ABOUT</h3>
-            <h3 className="nav">WHAT WE DO</h3>
-            <h3 className="nav">WHO WE HELP</h3>
-            <h3 className="nav">QUOTE</h3>
-            <h3 className="nav">CONTACT</h3>
+            <h3 className="nav" onClick= {handlePage} style = {{textDecoration: page === "About" ? "underline":""}}>ABOUT</h3>
+            <h3 className="nav" onClick= {handlePage2} style = {{textDecoration: page === "WeDo" ? "underline":""}}>WHAT WE DO</h3>
+            <h3 className="nav" onClick= {handlePage3}   style = {{textDecoration: page === "WeHelp" ? "underline":""}}>WHO WE HELP</h3>
+            <h3 className="nav" onClick= {handlePage4} style = {{textDecoration: page === "Quote" ? "underline":""}}>QUOTE</h3>
+            <h3 className="nav" onClick= {handlePage5}  style = {{textDecoration: page === "Contact" ? "underline":""}}>CONTACT</h3>
         </div>
 
         

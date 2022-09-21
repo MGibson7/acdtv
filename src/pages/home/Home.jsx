@@ -2,6 +2,7 @@ import Banner from "../../components/banner/Banner"
 import Featured from "../../components/featured/Featured"
 import HomeDisp from "../../components/homeDispl/HomeDisp"
 import NavBar from "../../components/navbar/NavBar"
+import WeDoBox from "../../components/weDoBoxes/WeDoBox"
 import "./home.css"
 
 const Home = () => {
@@ -11,6 +12,8 @@ const Home = () => {
         <Featured/>
         <NavBar/>
         <HomeDisp/>
+        <WeDoBox/>
+        
         
         
 

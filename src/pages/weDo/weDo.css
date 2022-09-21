@@ -1,0 +1,10 @@
+.weDoContain{
+    margin-top: 5vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+body{
+    background-color: #003865;
+}

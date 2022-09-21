@@ -1,0 +1,53 @@
+.weDoBoxContain{
+    display: flex;
+    width: 98vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: #003865;
+}
+
+.box{
+    width: 25%;
+    background-color: rgba(0,166,214, 0.2);
+border-radius: 16px;
+
+font-size: 1vw;
+color: white;
+text-align: center;
+margin-bottom: 1%;
+opacity: 0.8;
+align-self: center;
+height: 45vh;
+display: flex;
+flex-direction: column;
+vertical-align: top;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s ease-in-out;
+
+}
+
+.box h3{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: underline;
+    text-underline-offset: 2vh;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    
+}
+
+h4:hover{
+    color: #003865;
+}
+
+.box img{
+    width: 50%;
+    height: auto;
+    max-height: 150px;
+}
+

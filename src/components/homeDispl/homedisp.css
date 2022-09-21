@@ -8,6 +8,7 @@
     vertical-align: middle;
     text-align: center;
     width: 100%;
+    margin-bottom: 25vh;
 }
 
 .tagLine{
@@ -47,6 +48,6 @@ margin-top: 0px;
 }
 
 @keyframes myOrbit {
-    from { transform: rotate(0deg) translateX(40vw) rotate(0deg); }
-    to   { transform: rotate(360deg) translateX(40vw) rotate(-360deg); }
+    from { transform: rotate(0deg) translateX(50vw) rotate(0deg); }
+    to   { transform: rotate(350deg) translateX(50vw) rotate(-350deg); }
 }

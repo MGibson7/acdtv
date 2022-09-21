@@ -11,6 +11,7 @@ background: linear-gradient(90deg, rgba(0,166,214,1) 0%, rgba(0,98,155,1) 50%, r
     display: flex;
     vertical-align: middle;
     position: sticky;
+    z-index: 1000;
     top: 0;
     opacity: 0.8;
 

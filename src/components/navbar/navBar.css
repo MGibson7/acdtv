@@ -111,6 +111,7 @@ span{
 				  1px 1px 0 #00a6d6,
 				 1px -1px 0 #00a6d6,
 				-1px -1px 0 #00a6d6;
+                text-underline-offset: 2vh;
 }
 
 .nav:hover{
