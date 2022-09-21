@@ -5,6 +5,10 @@
     background-color: #003865;
 }
 
+.issue{
+    max-height: 100px;
+}
+
 .box{
     width: 25%;
     background-color: rgba(0,166,214, 0.2);
