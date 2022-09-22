@@ -23,12 +23,13 @@
 
 .carousel{
     overflow: hidden;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     margin-top: 5vh;
-    background-color: black;
+    background-color: white;
 }
 
-h3{
+.carousel h3{
     text-align: center;
+    color: black;
 }
