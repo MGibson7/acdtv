@@ -7,6 +7,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import WeHelp from "./pages/wehelp/WeHelp";
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Routes>
       <Route exact path = "/" element = { <Home/> }/>
       <Route exact path = "/wedo" element = { <WeDo/> }/>
+      <Route exact path = "/wehelp" element = { <WeHelp/> }/>
 
       </Routes>
       

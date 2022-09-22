@@ -1,0 +1,33 @@
+.item{
+    min-height: 10vh;
+    min-width: 25%;
+    padding: 40px;
+    vertical-align: center;
+
+}
+
+.item img{
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+    pointer-events: none;
+    vertical-align: center;
+    border: 1px solid black;
+    max-height: 250px;
+}
+
+.inner-carousel{
+    display: flex;
+    
+}
+
+.carousel{
+    overflow: hidden;
+    height: 50vh;
+    width: 90%;
+    margin-top: 10vh;
+}
+
+h3{
+    text-align: center;
+}

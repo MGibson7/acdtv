@@ -1,4 +1,5 @@
 
+import Carousel from "../../components/carousel/Carousel"
 import Featured from "../../components/featured/Featured"
 import HomeDisp from "../../components/homeDispl/HomeDisp"
 
@@ -13,6 +14,7 @@ const Home = () => {
 
         <HomeDisp/>
         <WeDoBox/>
+        <Carousel/>
         
         
         
