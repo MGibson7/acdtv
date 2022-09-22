@@ -14,9 +14,6 @@ const NavBar = () => {
   const handlePage3 = () =>{
     setPage("WeHelp")
   }
-  const handlePage4 = () =>{
-    setPage("Quote")
-  }
   const handlePage5 = () =>{
     setPage("Contact")
   }
@@ -44,8 +41,10 @@ const NavBar = () => {
             <h3 className="nav" onClick= {handlePage3}   style = {{textDecoration: page === "WeHelp" ? "underline":""}}>WHO WE HELP</h3>
             </Link>
             
-            <h3 className="nav" onClick= {handlePage4} style = {{textDecoration: page === "Quote" ? "underline":""}}>QUOTE</h3>
+            <Link className="link" to = "/contact">
             <h3 className="nav" onClick= {handlePage5}  style = {{textDecoration: page === "Contact" ? "underline":""}}>CONTACT</h3>
+            </Link>
+            
         </div>
 
         

@@ -8,6 +8,7 @@ import {
   Route
 } from "react-router-dom";
 import WeHelp from "./pages/wehelp/WeHelp";
+import Contact from "./pages/contact/Contact";
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Route exact path = "/" element = { <Home/> }/>
       <Route exact path = "/wedo" element = { <WeDo/> }/>
       <Route exact path = "/wehelp" element = { <WeHelp/> }/>
+      <Route exact path = "/contact" element = {<Contact/>}/>
 
       </Routes>
       

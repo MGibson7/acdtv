@@ -1,0 +1,54 @@
+.form{
+    width: 100%;
+
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    
+}
+
+.form h1{
+    color: white;
+}
+
+.form *{
+    text-align: center;
+    
+    align-self: center;
+    margin-top: 1vh;
+}
+
+
+.placeHolder{
+    color: white;
+    font-weight: 1000;
+    background-color:rgb(0, 166, 214, 0.9) ;
+    border-radius: 10%;
+    font-size: 2vw;
+}
+
+.placeHolder:hover{
+    transform: scale(1.2);
+    background-color: white;
+    color: #003865;
+    border: 10px solid #00a6d6;
+}
+
+button{
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #00a6d6;
+    color: #003865;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 3vw;
+}
+
+button:hover{
+    background-color: #00a6d6;
+    border: 10px solid white;
+    color: white;
+    font-size: 3vw;
+
+}

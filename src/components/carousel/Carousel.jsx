@@ -31,9 +31,9 @@ const Carousel = () => {
 
         </motion.div>
         
-        
+        <h3>Sports Bars, Gyms, Offices, Hotels, RV Parks, Barber Shops, Salons, no matter your business type we're here for you!</h3>
     </motion.div>
-    <h3>Sports Bars, Gyms, Offices, Hotels, RV Parks, Barber Shops, Salons, no matter your business type we're here for you!</h3>
+    
     </>
     
   )

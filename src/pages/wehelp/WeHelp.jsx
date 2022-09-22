@@ -4,7 +4,7 @@ import"./weHelp.css"
 
 const WeHelp = () => {
   return (
-    <div>
+    <div className="weHelp">
         <Featured/>
         <Carousel/>
     </div>
