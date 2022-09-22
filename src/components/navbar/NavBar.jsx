@@ -37,12 +37,12 @@ const NavBar = () => {
 
             </Link>
             
-            <Link className="link" to = "/wehelp">
-            <h3 className="nav" onClick= {handlePage3}   style = {{textDecoration: page === "WeHelp" ? "underline":""}}>WHO WE HELP</h3>
+            <Link onClick= {handlePage3} className="link" to = "/wehelp">
+            <h3 className="nav"    style = {{textDecoration: page === "WeHelp" ? "underline":""}}>WHO WE HELP</h3>
             </Link>
             
-            <Link className="link" to = "/contact">
-            <h3 className="nav" onClick= {handlePage5}  style = {{textDecoration: page === "Contact" ? "underline":""}}>CONTACT</h3>
+            <Link onClick= {handlePage5} className="link" to = "/contact">
+            <h3 className="nav"   style = {{textDecoration: page === "Contact" ? "underline":""}}>CONTACT</h3>
             </Link>
             
         </div>

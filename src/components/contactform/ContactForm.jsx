@@ -42,7 +42,7 @@ const ContactForm = () => {
 
       action={FORM_ENDPOINT}
 
-      onSubmit={handleSubmit}
+      onSubmit={setSubmitted(true)}
 
       method="POST"
 
