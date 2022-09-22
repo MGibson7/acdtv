@@ -31,11 +31,11 @@ const NavBar = () => {
         </div>
 
         <div className="rightSideNav">
-          <Link  onClick= {handlePage}  to = "/">
+          <Link className="link"  onClick= {handlePage}  to = "/">
           <h3 className="nav" style = {{textDecoration: page === "Home" ? "underline":""}}>HOME</h3>
 
           </Link>
-            <Link onClick= {handlePage2} to = "/wedo">
+            <Link className="link" onClick= {handlePage2} to = "/wedo">
             <h3 className="nav"  style = {{textDecoration: page === "WeDo" ? "underline":""}}>WHAT WE DO</h3>
 
             </Link>
