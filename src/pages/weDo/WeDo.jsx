@@ -1,13 +1,15 @@
-import Banner from "../../components/banner/Banner"
-import NavBar from "../../components/navbar/NavBar"
+
+import Featured from "../../components/featured/Featured"
+
 import WeDoBox from "../../components/weDoBoxes/WeDoBox"
 import "./weDo.css"
 
 const WeDo = () => {
   return (
     <>
-    <Banner/>
-        <NavBar/>
+
+
+        <Featured  />
 
 <div className="weDoContain">
     <WeDoBox/>

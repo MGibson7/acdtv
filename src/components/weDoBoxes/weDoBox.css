@@ -35,6 +35,7 @@ vertical-align: top;
     opacity: 0.8;
     filter: blur(0);
     transform: translateX(0);
+    
 }
 
 .box h3{
@@ -44,10 +45,6 @@ vertical-align: top;
     text-underline-offset: 2vh;
 }
 
-.box:hover{
-    transform: scale(1.1);
-    
-}
 
 h4:hover{
     color: #003865;
