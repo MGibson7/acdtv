@@ -28,6 +28,10 @@
     font-size: 2vw;
 }
 
+input{
+    color: white;
+}
+
 .messageEnd{
     font-size: 5vw;
     color: white;
