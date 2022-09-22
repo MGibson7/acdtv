@@ -26,10 +26,10 @@
     height: 60vh;
     width: 100%;
     margin-top: 5vh;
-    background-color: white;
+    background-color: black;
 }
 
 .carousel h3{
     text-align: center;
-    color: black;
+    color: white;
 }
