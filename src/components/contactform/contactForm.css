@@ -28,6 +28,14 @@
     font-size: 2vw;
 }
 
+.messageEnd{
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+    align-self: center;
+    margin-top: 10vh;
+}
+
 .placeHolder:hover{
     transform: scale(1.2);
     background-color: white;

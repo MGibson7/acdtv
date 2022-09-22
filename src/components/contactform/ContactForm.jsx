@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./contactForm.css"
 
 const FORM_ENDPOINT = ""; // TODO - fill on the later step
@@ -8,13 +8,17 @@ const ContactForm = () => {
 
   const [submitted, setSubmitted] = useState(false);
 
+  useEffect(()=>{
+
+}, [submitted])
+
   const handleSubmit = () => {
 
-    setTimeout(() => {
+    //setTimeout(() => {
 
-      setSubmitted(true);
+     setSubmitted(true);
 
-    }, 100);
+    //}, 100);
 
   };
 
@@ -25,9 +29,9 @@ const ContactForm = () => {
 
       <>
 
-        <div className="text-2L">Thank you!</div>
+        <div className="messageEnd">Thank you!</div>
 
-        <div className="text-md">We'll be in touch soon.</div>
+        <div className="messageEnd">We'll be in touch soon.</div>
 
       </>
 
@@ -42,7 +46,7 @@ const ContactForm = () => {
 
       action={FORM_ENDPOINT}
 
-      onSubmit={setSubmitted(true)}
+      onSubmit={handleSubmit}
 
       method="POST"
 
