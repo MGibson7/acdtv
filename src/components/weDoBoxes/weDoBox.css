@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: #003865;
+    margin-top: 0.5vh;
 }
 
 
@@ -95,7 +96,7 @@ h3{
 @media screen and (max-width: 550px){
     .weDoBoxContain{
         flex-direction: column;
-        margin-top: 0px;
+       
     }
     .box{
         margin-top: 0.5%;
