@@ -18,9 +18,4 @@ body{
     background-color: #003865;
 }
 
-@media screen and (max-width: 550px){
-    .weDoContain{
-        margin-top: 0vh;
-    }
 
-}
