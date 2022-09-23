@@ -23,7 +23,7 @@
 
 .carousel{
     overflow: hidden;
-    height: 65vh;
+    height: auto;
     width: 100%;
     margin-top: 5vh;
     background-color: black;
@@ -35,16 +35,15 @@
 }
 
 @media screen and (max-width: 1000px){
-    .carousel{
-        height: 50vh;
-    }
+    
 
     .item{
         padding: 20px;
         min-width: 40%;
     }
     .carousel h3{
-        font-size: 2vw;
+        font-size: 1.5vw;
+        text-align: center;
     }
 
 }
