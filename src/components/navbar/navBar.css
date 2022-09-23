@@ -126,6 +126,14 @@ span{
     .rightSideNav{
         display: none;
     }
+    .leftSideNav{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    .rightSideNav{
+        width:0%;
+    }
     
 }
 
