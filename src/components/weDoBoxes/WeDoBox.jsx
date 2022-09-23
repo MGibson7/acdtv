@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer';
 
 const WeDoBox = () => {
   const { ref, inView } = useInView({
-    threshold: 0.5
+    threshold: 0.1
   });
   
 
@@ -22,7 +22,7 @@ const WeDoBox = () => {
       <div ref = {ref} className={`box ${inView ? "show" : ""}`} style={{transitionDelay: "600ms"}}><img className='issue' src="./cable.png" alt="" /> <h3>Licensed and Insured</h3>
       <h4>CUSTOM INSTALLS AND CABLING</h4>
       <p>No matter how big or what your business looks like, we have a cabling/installation solution for it! Non-Standard and custom may be terms that scare most companies and their techs but not our elite team.</p></div>
-      <h3>In Need of another service or product for your business? Check with us we have partnerships with the best in the biz!</h3>
+      <h3 className='rem'>In Need of another service or product for your business? Check with us we have partnerships with the best in the biz!</h3>
 
 
     </div>
