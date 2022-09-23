@@ -33,3 +33,17 @@
     text-align: center;
     color: white;
 }
+
+@media screen and (max-width: 1000px){
+    .carousel{
+        height: 55vh;
+    }
+
+    .item{
+        padding: 20px;
+    }
+    .carousel h3{
+        font-size: 3vw;
+    }
+
+}
