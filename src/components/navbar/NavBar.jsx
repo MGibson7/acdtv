@@ -23,7 +23,7 @@ const NavBar = () => {
     <div className="navbar">
         <div className="leftSideNav">
   
-        <h1 className="logo mont">A<span style={{fontSize: "1.5rem", verticalAlign: "middle", color: "white", textShadow: "none"}}>merican</span><span className="oppo">C</span><span style={{fontSize: "1.5rem",  verticalAlign: "middle", color: "white", textShadow: "none"}}>ommunications</span> </h1>
+        <h1 className="logo mont">A<span className="smallFnt" style={{verticalAlign: "middle", color: "white", textShadow: "none"}}>merican</span><span className="oppo">C</span><span className = "smallFnt" style={{verticalAlign: "middle", color: "white", textShadow: "none"}}>ommunications</span> </h1>
 
         </div>
 

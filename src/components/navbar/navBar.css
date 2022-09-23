@@ -18,7 +18,7 @@ font-size: 7rem;
 font-weight: bold;
 margin-top: 0px;
 margin-left: 5vw;
-letter-spacing: 0px;
+letter-spacing: 0.5px;
 color:#003865;
 	text-shadow: -0.5rem 0.5rem 0 white,
 				  0.5rem 0.5rem 0 #00a6d6,
@@ -120,4 +120,78 @@ span{
 .nav:hover{
     text-decoration: underline;
     text-underline-offset: 2vh;
+}
+
+@media screen and (max-width: 995px) {
+    .rightSideNav{
+        display: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 550px){
+    .navbar{
+        height: 10vh;
+    }
+    .leftSideNav{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    .logo{
+        font-size: 4rem;
+        animation: none;
+        text-shadow: -0.3rem 0.3rem 0 white,
+				  0.3rem 0.3rem 0 #00a6d6,
+				 0.3rem -0.3rem 0 #00a6d6,
+				-0.3rem -0.3rem 0 white;
+    }
+    .oppo{
+        animation: none;
+        color: white;
+	text-shadow: -0.3rem 0.3rem 0 #00a6d6,
+				  0.3rem 0.3rem 0 #003865,
+				 0.3rem -0.3rem 0 #003865,
+				-0.3rem -0.3rem 0 #00a6d6;
+
+        
+    }
+}
+
+.smallFnt{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 450px){
+    .leftSideNav{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    .rightSideNav{
+        width:0%;
+    }
+    .logo{
+        font-size: 4rem;
+        animation: none;
+        text-shadow: -0.1rem 0.1rem 0 white,
+				  0.1rem 0.1rem 0 #00a6d6,
+				 0.1rem -0.1rem 0 #00a6d6,
+				-0.1rem -0.1rem 0 white;
+    }
+    .oppo{
+        margin-left: 2px;
+        animation: none;
+        color: white;
+	text-shadow: -0.1rem 0.1rem 0 #00a6d6,
+				  0.1rem 0.1rem 0 #003865,
+				 0.1rem -0.1rem 0 #003865,
+				-0.1rem -0.1rem 0 #00a6d6;
+
+        
+    }
+
+    .smallFnt{
+        font-size: 1rem;
+    }
 }

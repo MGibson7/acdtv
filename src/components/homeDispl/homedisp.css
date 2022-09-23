@@ -55,3 +55,65 @@ margin-top: 0px;
     from { transform: rotate(0deg) translateX(50vw) rotate(0deg); }
     to   { transform: rotate(360deg) translateX(50vw) rotate(-360deg); }
 }
+
+
+@media screen and (max-width: 995px){
+    .main{
+        margin-bottom: 27vh;
+    }
+    .orbiter{
+        bottom: 155px;
+    }
+
+    .tagLine{
+        background-size: 75% 2.5vh;
+
+    }
+    .tagLine2{
+        background-size: 75% 1.5vh;
+
+    }
+
+}
+
+@media screen and (max-width: 850px){
+    .main{
+        margin-bottom: 30vh;
+    }
+    .orbiter{
+        bottom: 210px;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    .main{
+        margin-bottom: 45vh;
+    }
+    .orbiter{
+        bottom: 330px;
+    }
+
+}
+
+
+@media screen and (max-width: 550px){
+    .main{
+        margin-bottom: 55vh;
+        font-size: 3.5vw;
+        
+    }
+    .tagLine{
+        background-size: 90% 1.5vh;
+
+    }
+    .tagLine2{
+        background-size: 90% 1vh;
+
+    }
+    .orbiter{
+        width: 20vw;
+        bottom: 430px;
+    }
+
+}

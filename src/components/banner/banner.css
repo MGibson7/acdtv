@@ -73,3 +73,31 @@ background: linear-gradient(90deg, rgba(0,166,214,1) 0%, rgba(0,98,155,1) 50%, r
     transition: all .5s ease-in-out;
     padding-top: 2vh;
 }
+
+@media screen and (max-width: 700px){
+    .phone{
+        font-size: 2rem !important;
+    }
+    .centerB h1{
+        font-size: 1.5rem;
+    }
+    .social{
+        font-size: 1.5rem !important;
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+    .phone{
+        font-size: 1rem !important;
+    }
+    .centerB h1{
+        font-size: 1rem;
+    }
+    .social{
+        font-size: 1rem !important;
+    }
+
+
+}
