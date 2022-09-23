@@ -81,7 +81,8 @@ margin-top: 0px;
         margin-bottom: 30vh;
     }
     .orbiter{
-        bottom: 150px;
+        width: 20vw;
+        bottom: 250px;
     }
 
 }
@@ -91,7 +92,8 @@ margin-top: 0px;
         margin-bottom: 45vh;
     }
     .orbiter{
-        bottom: 250px;
+        width: 20vw;
+        bottom: 300px;
     }
 
 }
