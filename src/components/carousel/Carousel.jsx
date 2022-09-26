@@ -4,19 +4,19 @@ import {useRef, useEffect, useState} from "react";
 
 const Carousel = () => {
     const imgArray = ["./gym.jpeg", "/barber.jpeg", "/sportsbar.jpeg", "./office.jpeg", "./rv.jpeg", "./hotel.webp"]
-    const [width, setWidth] = useState(100);
+    const [width, setWidth] = useState(0);
     const carouselDiv = useRef();
 
     useEffect(()=>{
         setWidth(carouselDiv.current.scrollWidth - carouselDiv.current.offsetWidth);
 
 
-    },[width]);
+    },[]);
 
   return (
     <>
     <motion.div ref={carouselDiv} className="carousel">
-        <motion.div initial={{x: 0}}
+        <motion.div key = "mobile" initial={{x: 0}}
   animate={{x: -width}}
   transition={{x: {repeat: Infinity, repeatType: "loop", duration: 20, ease: "linear"}}}   
           className="inner-carousel">
