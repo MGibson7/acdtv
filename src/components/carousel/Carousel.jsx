@@ -16,7 +16,7 @@ const Carousel = () => {
         }
 
 
-    },[]);
+    },[width]);
 
   return (
     <>
