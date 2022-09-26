@@ -1,26 +1,23 @@
 import "./carousel.css";
 import {motion} from 'framer-motion';
 import {useRef, useEffect, useState} from "react";
-import { useInView } from 'react-intersection-observer';
 
 const Carousel = () => {
     const imgArray = ["./gym.jpeg", "/barber.jpeg", "/sportsbar.jpeg", "./office.jpeg", "./rv.jpeg", "./hotel.webp"]
     const [width, setWidth] = useState(0);
     const carouselDiv = useRef();
-    const { newRef, viewing } = useInView({
-        threshold: 0.1
-      });
+    
 
     useEffect(()=>{
         setWidth(carouselDiv.current.scrollWidth - carouselDiv.current.offsetWidth);
 
 
-    },[viewing]);
+    },[]);
 
   return (
     <>
-    <motion.div ref={carouselDiv}  className="carousel">
-        <motion.div  ref = {newRef} initial={{x: 0}}
+    <motion.div ref={carouselDiv} className="carousel">
+        <motion.div initial={{x: 0}} drag="x" dragConstraints ={{right:0, left: -width}} whileTap = {{cursor: "grabbing"}}
   animate={{x: -width}}
   transition={{x: {repeat: Infinity, repeatType: "loop", duration: 20, ease: "linear"}}}   
           className="inner-carousel">
