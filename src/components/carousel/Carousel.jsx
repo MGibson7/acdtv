@@ -4,7 +4,7 @@ import {useRef, useEffect, useState} from "react";
 
 const Carousel = () => {
     const imgArray = ["./gym.jpeg", "/barber.jpeg", "/sportsbar.jpeg", "./office.jpeg", "./rv.jpeg", "./hotel.webp"]
-    const [width, setWidth] = useState(0);
+    const [width, setWidth] = useState(carouselDiv.current.scrollWidth - carouselDiv.current.offsetWidth);
     const carouselDiv = useRef();
 
     useEffect(()=>{
