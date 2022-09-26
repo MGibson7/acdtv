@@ -1,6 +1,7 @@
 import "./carousel.css";
 import {motion} from 'framer-motion';
 import {useRef, useEffect, useState} from "react";
+import { useInView } from 'react-intersection-observer';
 
 const Carousel = () => {
     const imgArray = ["./gym.jpeg", "/barber.jpeg", "/sportsbar.jpeg", "./office.jpeg", "./rv.jpeg", "./hotel.webp"]
