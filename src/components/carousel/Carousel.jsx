@@ -9,7 +9,11 @@ const Carousel = () => {
     
 
     useEffect(()=>{
-        setWidth(carouselDiv.current.scrollWidth - 200);
+        setWidth(carouselDiv.current.scrollWidth - carouselDiv.current.offsetWidth);
+        if(width === 0){
+            setWidth(1000);
+
+        }
 
 
     },[]);
